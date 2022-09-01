@@ -6,19 +6,15 @@ Repo for PX915 summer project reproducible result.
 #### (NOTE: sdf package comes with EPOCH. Instructions to install package are given in the Using EPOCH section, please do not do pip3 install sdf as this is a seprate package.)
 
 * sdf (Warwick's own scientific data format - comes with EPOCH)
-* typing
 * time
 * fileinput
 * os
 * sys
-* glob
-* csv (1.0)
+* multiprocessing
 * GPy (1.10.0)
-* nbformat (4.4.0)
 * matplotlib (3.1.1)
 * numpy (1.17.3)
 * scipy (1.3.1)
-* smt (1.2.0)
 * sklearn (1.0.2)
 * json (2.0.9)
 
@@ -28,7 +24,7 @@ This project used EPOCH version 4.17.16, the latest releases can by found here h
 
 #### Downloading
 To download EPOCH using the tarball file, simply click the version you want to download it. Once you have moved it into your chosen directory, you can unpack the code using the command:
-`tar xzf epoch-4.17.6.tar.gz`, creating a directory called epoch-4.17.16.
+`tar xzf epoch-4.17.16.tar.gz`, creating a directory called epoch-4.17.16.
 
 ## How to use this Repository in epoch
 
@@ -36,7 +32,7 @@ Clone this repository inside the epoch1d directory once you have a working copy 
 
 To make full use of the scripts, please add these paths to your `.bashrc`:
 
-* `export EPOCH1D="$HOME/<your route to epoch>/epoch1d"`
+* `export EPOCH1D="$HOME/epoch-4.17.16/epoch1d"`
 * `export PX915_RR="$EPOCH1D/PX915_Reproducible_Result"`
 * `export EPOCH1D_EXE="$EPOCH1D/bin/epoch1d"`
 
@@ -44,7 +40,7 @@ To make full use of the scripts, please add these paths to your `.bashrc`:
 (More in depth information is found in the README of https://github.com/Warwick-Plasma/epoch and the epoch documentation https://epochpic.github.io/)
 #### Compiling EPOCH
 This project only uses the 1D version of the code, so this example will be for compiling epoch1d, however to do so for 2D and 3D is analagous to that of 1D.
-To compile the 1D version of the code, you must first change to the correct directory (`epoch1d`) by typing `cd epoch-4.17.6/epoch1d`
+To compile the 1D version of the code, you must first change to the correct directory (`epoch1d`) by typing `cd epoch-4.17.16/epoch1d`
 The code is compiled using make, however a compiler must be specified. EPOCH is written using Fortran so a common compiler used is `gfortran`.
 * To compile the code you type in the command `make COMPILER=gfortran`.
 * To compile the code in parallel (for example using 4 processors) which saves a bit of time, you can use the command `make COMPILER=gfortran -j4` instead.

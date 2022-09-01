@@ -42,15 +42,11 @@ This project used EPOCH version 4.17.16, the latest releases can by found here h
 To download EPOCH using the tarball file, simply click the version you want to download it. Once you have moved it into your chosen directory, you can unpack the code using the command:
 `tar xzf epoch-4.17.6.tar.gz`, creating a directory called epoch-4.17.16.
 
-#### Cloning
-Alternatively you can clone the EPOCH repository using the command `git clone --recursive https://github.com/Warwick-Plasma/epoch.git` inside a chosen directory of your choice. This will then create a new directory named epoch. The `--recursive` flag is required to have access to the SDF subdirectory.
-
-
 ## Using EPOCH
 (More in depth information is found in the README of https://github.com/Warwick-Plasma/epoch and the epoch documentation https://epochpic.github.io/)
 #### Compiling EPOCH
 This project only uses the 1D version of the code, so this example will be for compiling epoch1d, however to do so for 2D and 3D is analagous to that of 1D.
-To compile the 1D version of the code, you must first change to the correct directory (`epoch1d`) by typing `cd <your_name_for_epoch>/epoch1d`, where `<your_name_for_epoch>` could be `epoch-4.17.6` or `epoch` depending on if you downloaded or cloned epoch.
+To compile the 1D version of the code, you must first change to the correct directory (`epoch1d`) by typing `cd epoch-4.17.6/epoch1d`
 The code is compiled using make, however a compiler must be specified. EPOCH is written using Fortran so a common compiler used is `gfortran`.
 * To compile the code you type in the command `make COMPILER=gfortran`.
 * To compile the code in parallel (for example using 4 processors) which saves a bit of time, you can use the command `make COMPILER=gfortran -j4` instead.

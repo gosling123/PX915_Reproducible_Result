@@ -2,18 +2,6 @@
 
 Repo for PX915 summer project reproducible result.
 
-## How to use
-
-Clone this repository inside the epoch1d directory once you have a working copy of EPOCH on your machiene. The various python scripts contain classes and functions that aid in the calculation of plasma quantities and LPI metrics. Gaussian Process regression scripts are also contained within this repository for if you want to produce a surrogate for backscattered SRS intensity and hot-electron temperature.
-
-To make full use of the scripts, please add these paths to your `.bashrc`:
-
-* `export EPOCH1D="$HOME/<your route to epoch>/epoch1d"`
-* `export PX915_RR="$EPOCH1D/PX915_Reproducible_Result"`
-* `export EPOCH1D_EXE="$EPOCH1D/bin/epoch1d"`
-
-
-
 ## Python package dependencies:
 #### (NOTE: sdf package comes with EPOCH. Instructions to install package are given in the Using EPOCH section, please do not do pip3 install sdf as this is a seprate package.)
 
@@ -42,7 +30,17 @@ This project used EPOCH version 4.17.16, the latest releases can by found here h
 To download EPOCH using the tarball file, simply click the version you want to download it. Once you have moved it into your chosen directory, you can unpack the code using the command:
 `tar xzf epoch-4.17.6.tar.gz`, creating a directory called epoch-4.17.16.
 
-## Using EPOCH
+## How to use this Repository in epoch
+
+Clone this repository inside the epoch1d directory once you have a working copy of EPOCH on your machiene. The jupyter notebook will guide you through how the reflectivity is calculated and the GP process. If you want to see the Gaussian process code in more detail, then please look in the `Py_scripts folder`.
+
+To make full use of the scripts, please add these paths to your `.bashrc`:
+
+* `export EPOCH1D="$HOME/<your route to epoch>/epoch1d"`
+* `export PX915_RR="$EPOCH1D/PX915_Reproducible_Result"`
+* `export EPOCH1D_EXE="$EPOCH1D/bin/epoch1d"`
+
+### Using EPOCH
 (More in depth information is found in the README of https://github.com/Warwick-Plasma/epoch and the epoch documentation https://epochpic.github.io/)
 #### Compiling EPOCH
 This project only uses the 1D version of the code, so this example will be for compiling epoch1d, however to do so for 2D and 3D is analagous to that of 1D.

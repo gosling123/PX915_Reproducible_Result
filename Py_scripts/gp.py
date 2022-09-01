@@ -6,7 +6,7 @@ import GPy
 from sklearn.model_selection import train_test_split
 import seaborn as sns
 
-plt.rcParams["figure.figsize"] = [14, 10]
+plt.rcParams["figure.figsize"] = [20, 10]
 plt.rcParams["figure.autolayout"] = True
 plt.rcParams['lines.linewidth'] = 2
 plt.rcParams['axes.labelsize'] = 20

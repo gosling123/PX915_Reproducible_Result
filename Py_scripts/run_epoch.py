@@ -10,7 +10,7 @@ from utils import read_input
 # @param dir  Directory to store epoch data to and where the input.deck file is
 # @param output  Ouput to command line (True) or to run.log file (False)
 # @param npro  Number of processors to eun epoch1d on (MPI)    
-def run_epoch(dir, output = True, npro = 1):
+def run_epoch(dir, output = True, npro = 3):
     if not isinstance(npro,int) or (npro < 1):
             raise Exception("ERROR: npro argument must be an integer > 0")
     if not isinstance(dir,str):

@@ -1,6 +1,22 @@
-from gp_utils import *
+import os
+import numpy as np
+import matplotlib.pyplot as plt
+import json
+import GPy
+from sklearn.model_selection import train_test_split
+import seaborn as sns
 
-class LPI_GP_test:
+plt.rcParams["figure.figsize"] = [14, 10]
+plt.rcParams["figure.autolayout"] = True
+plt.rcParams['lines.linewidth'] = 2
+plt.rcParams['axes.labelsize'] = 20
+plt.rcParams['axes.titlesize'] = 20
+plt.rcParams['xtick.labelsize'] = 20
+plt.rcParams['ytick.labelsize'] = 20
+plt.rcParams['legend.fontsize'] = 20
+
+
+class LPI_GP:
     """Class implementing a Gaussian Process"""
     
     def __init__(self, input_file = None, output_file = None, var_file = None, train_frac = 0.4):
@@ -204,8 +220,7 @@ class LPI_GP_test:
             f_star = np.exp(f_star.flatten())
             V_epi = f_star**2 * np.diag(V_star_epi)
             V_noise = f_star**2 * np.diag(V_star_noise)
-            # V_noise = gaussian_filter(V_noise, sigma = 20)
-
+    
             return f_star.flatten(), V_epi.flatten(), V_noise.flatten()
         else:
             return np.exp(f_star).flatten()

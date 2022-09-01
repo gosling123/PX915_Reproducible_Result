@@ -1,7 +1,8 @@
-from utils import *
-from plasma_calc import *
-from fields_calc import *
-from sim_setup import *
+import os
+import time
+from utils import read_input
+
+
 
 ## run_epoch
 #
@@ -9,7 +10,7 @@ from sim_setup import *
 # @param dir  Directory to store epoch data to and where the input.deck file is
 # @param output  Ouput to command line (True) or to run.log file (False)
 # @param npro  Number of processors to eun epoch1d on (MPI)    
-def run_epoch(dir = 'Data', output = False, npro = 4):
+def run_epoch(dir, output = True, npro = 1):
     if not isinstance(npro,int) or (npro < 1):
             raise Exception("ERROR: npro argument must be an integer > 0")
     if not isinstance(dir,str):
@@ -36,11 +37,12 @@ def run_epoch(dir = 'Data', output = False, npro = 4):
     Ln = read_input(f'{dir}/', param = 'ne_scale_len')
     ppc = read_input(f'{dir}/', param = 'ppc')
     print(f'Output Directory exists at {dir}')
-    print(f'running epoch1d for I = {I} W/cm^2 ; Ln = {Ln} m ; PPC = {ppc}')
+    print(f'running epoch1d for I = {I} W/cm^2 ; Ln = {Ln} m ; PPC = {ppc} ; dir = {dir}')
     start = time.time()
     if output:
         os.system(f'{epoch_path}/epoch.sh ' + str(dir) + ' ' + str(npro) + ' log')
     else:
         os.system(f'{epoch_path}/epoch.sh ' + str(dir) + ' ' + str(npro))
-    print(f'Simulation Complete in {(time.time() - start)/60} minutes')
+    print(f'{dir} Simulation Complete in {(time.time() - start)/60} minutes')
         
+

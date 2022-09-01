@@ -9,7 +9,7 @@ Clone this repository inside the epoch1d director once you have a working copy o
 To make full use of the scripts, please add these paths to your `.bashrc`:
 
 * `export EPOCH1D="$HOME/<your route to epoch>/epoch1d"`
-* `export EPOCH_SURRA="$EPOCH1D/epoch_surra"`
+* `export PX915_RR="$EPOCH1D/PX915_Reproducible_Result"`
 * `export EPOCH1D_EXE="$EPOCH1D/bin/epoch1d"`
 
 

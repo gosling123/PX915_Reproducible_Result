@@ -4,7 +4,7 @@ Repo for PX915 summer project reproducible result.
 
 ## How to use
 
-Clone this repository inside the epoch1d director once you have a working copy of EPOCH on your machiene. The various python scripts contain classes and functions that aid in the calculation of plasma quantities and LPI metrics. Gaussian Process regression scripts are also contained within this repository for if you want to produce a surrogate for backscattered SRS intensity and hot-electron temperature.
+Clone this repository inside the epoch1d directory once you have a working copy of EPOCH on your machiene. The various python scripts contain classes and functions that aid in the calculation of plasma quantities and LPI metrics. Gaussian Process regression scripts are also contained within this repository for if you want to produce a surrogate for backscattered SRS intensity and hot-electron temperature.
 
 To make full use of the scripts, please add these paths to your `.bashrc`:
 

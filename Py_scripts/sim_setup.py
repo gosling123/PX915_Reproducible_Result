@@ -6,6 +6,7 @@ from utils import replace_line
 # Creates a directory inside repository to host an epoch sim
 # @param dir  Directory name
 def create_dir(dir):
+    """Creates a directory inside repository to host an epoch sim."""
     if not isinstance(dir,str):
             raise Exception("ERROR: dir argument must be a string (directory)")
     epoch_path = os.getenv('PX915_RR')
@@ -20,6 +21,7 @@ def create_dir(dir):
 # @param dir  Directory name
 # @param sub_dir  Sub-Directory name
 def create_sub_dir(dir, sub_dir):
+    """Creates a directory and directory within inside repository to host an epoch sim."""
     if not isinstance(dir,str):
             raise Exception("ERROR: dir argument must be a string (directory)")
     if not isinstance(sub_dir,str):
@@ -37,13 +39,15 @@ def create_sub_dir(dir, sub_dir):
 ## input_deck
 #
 # Copies a preset input deck into chosen directory setting the values of
-# laser intensity (I), density scale length (Ln) and particles per cell (ppc).
+# laser intensity (I), density scale length (Ln) and particles per cell (ppc)
 # @param I  Laser intensity (W/cm^2)  
 # @param Ln  Density scale length (m)
 # @param ppc  Paricles per cell
 # @param dir  Directory name
 # @param input_file  Input file base to copy from input_decks folder
 def input_deck(I, Ln, ppc, dir, input_file):
+    """ Copies a preset input deck into chosen directory setting the values of
+        laser intensity (I), density scale length (Ln) and particles per cell (ppc)."""
     if not isinstance(ppc,int) or (ppc < 1):
             raise Exception("ERROR: ppc argument must be an integer > 0")
     if not isinstance(dir,str):
@@ -66,7 +70,7 @@ def input_deck(I, Ln, ppc, dir, input_file):
 
 ## epoch_sim_sub_dirs
 #
-# Creates epoch sim directories with sub directories and populates it with chosen input.deck format.
+# Creates epoch sim directories with sub directories and populates it with chosen input.deck format
 # @param dir  Directory name
 # @param sub_dir  Sub-Directory name
 # @param input_file  Input file base to copy from input_decks folder
@@ -77,6 +81,7 @@ def input_deck(I, Ln, ppc, dir, input_file):
 # @param nodes  Number of computational nodes to request
 # @param hpc  (Logical) Whether to add hpc (avon) hob script or not
 def epoch_sim_sub_dir(dir, sub_dir, input_file, I, Ln, ppc = 100):
+    """Creates epoch sim directories with sub directories and populates it with chosen input.deck format."""
     if not isinstance(ppc,int) or (ppc < 1):
             raise Exception("ERROR: ppc argument must be an integer > 0")
     if not isinstance(dir,str):

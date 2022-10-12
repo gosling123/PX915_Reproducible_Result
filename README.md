@@ -24,7 +24,7 @@ This project used EPOCH version 4.17.16, the latest releases can by found here h
 
 #### Downloading
 To download EPOCH using the tarball file, simply click the version you want to download it. Once you have moved it into your chosen directory, you can unpack the code using the command:
-`tar xzf epoch-4.17.16.tar.gz`, creating a directory called epoch-4.17.16.
+`tar xzfv epoch-4.17.16.tar.gz`, creating a directory called epoch-4.17.16.
 
 ## How to use this Repository in epoch
 

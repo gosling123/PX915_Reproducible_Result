@@ -1,0 +1,321 @@
+[I 10:52:42.287 NotebookApp] The port 8888 is already in use, trying another port.
+[I 10:52:42.288 NotebookApp] The port 8889 is already in use, trying another port.
+[I 10:52:42.288 NotebookApp] The port 8890 is already in use, trying another port.
+[I 10:52:42.294 NotebookApp] The port 8891 is already in use, trying another port.
+[I 10:52:42.295 NotebookApp] The port 8892 is already in use, trying another port.
+[I 10:52:42.297 NotebookApp] The port 8931 is already in use, trying another port.
+[I 10:52:42.332 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 10:52:44.326 NotebookApp] Loading the assignment_list nbgrader serverextension
+[I 10:52:44.379 NotebookApp] Loading the course_list nbgrader serverextension
+[I 10:52:44.412 NotebookApp] Loading the formgrader nbgrader serverextension
+[I 10:52:44.448 NotebookApp] Loading the validate_assignment nbgrader serverextension
+[I 10:52:44.450 NotebookApp] Serving notebooks from local directory: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result
+[I 10:52:44.450 NotebookApp] The Jupyter Notebook is running at:
+[I 10:52:44.452 NotebookApp] https://hetmathsys1.scrtp.warwick.ac.uk:8953/
+[I 10:52:44.452 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 10:52:48.695 NotebookApp] The port 8888 is already in use, trying another port.
+[I 10:52:48.697 NotebookApp] The port 8889 is already in use, trying another port.
+[I 10:52:48.697 NotebookApp] The port 8890 is already in use, trying another port.
+[I 10:52:48.698 NotebookApp] The port 8891 is already in use, trying another port.
+[I 10:52:48.701 NotebookApp] The port 8892 is already in use, trying another port.
+[I 10:52:48.731 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 10:52:50.232 NotebookApp] Loading the assignment_list nbgrader serverextension
+[I 10:52:50.239 NotebookApp] Loading the course_list nbgrader serverextension
+[I 10:52:50.263 NotebookApp] Loading the formgrader nbgrader serverextension
+[I 10:52:50.288 NotebookApp] Loading the validate_assignment nbgrader serverextension
+[I 10:52:50.291 NotebookApp] Serving notebooks from local directory: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result
+[I 10:52:50.293 NotebookApp] The Jupyter Notebook is running at:
+[I 10:52:50.294 NotebookApp] https://hetmathsys1.scrtp.warwick.ac.uk:8822/
+[I 10:52:50.294 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 10:52:54.841 NotebookApp] SSL Error on 8 ('172.24.9.124', 39010): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 10:52:54.842 NotebookApp] SSL Error on 9 ('172.24.9.124', 39006): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[I 10:52:54.887 NotebookApp] 302 GET / (172.24.9.124) 0.59ms
+[I 10:52:54.908 NotebookApp] 302 GET /tree? (172.24.9.124) 0.66ms
+[W 10:52:55.034 NotebookApp] SSL Error on 9 ('172.24.9.124', 39038): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 10:52:55.035 NotebookApp] SSL Error on 10 ('172.24.9.124', 39044): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 10:52:55.035 NotebookApp] SSL Error on 11 ('172.24.9.124', 39066): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 10:52:55.060 NotebookApp] SSL Error on 12 ('172.24.9.124', 39052): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 10:52:55.061 NotebookApp] SSL Error on 13 ('172.24.9.124', 39062): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 10:52:55.069 NotebookApp] SSL Error on 9 ('172.24.9.124', 39070): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 10:52:55.070 NotebookApp] SSL Error on 10 ('172.24.9.124', 39080): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[I 10:53:00.898 NotebookApp] 302 POST /login?next=%2Ftree%3F (172.24.9.124) 2.13ms
+/warwick/desktop/2018/software/IPython/7.9.0-intel-2019b-Python-3.7.4/lib/python3.7/site-packages/jupyter_client/connect.py:167: RuntimeWarning: Failed to set sticky bit on '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-17ac7cba-34b5-4453-9de4-3d9546fee8f2.json': [Errno 5] Input/output error: '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-17ac7cba-34b5-4453-9de4-3d9546fee8f2.json'
+Probably not a big deal, but runtime files may be cleaned up periodically.
+  RuntimeWarning,
+[I 10:53:07.860 NotebookApp] Kernel started: 17ac7cba-34b5-4453-9de4-3d9546fee8f2
+[W 10:53:07.960 NotebookApp] SSL Error on 22 ('172.24.9.124', 46898): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+/warwick/desktop/2018/software/IPython/7.9.0-intel-2019b-Python-3.7.4/lib/python3.7/site-packages/jupyter_client/connect.py:167: RuntimeWarning: Failed to set sticky bit on '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-17ac7cba-34b5-4453-9de4-3d9546fee8f2.json': [Errno 5] Input/output error: '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-17ac7cba-34b5-4453-9de4-3d9546fee8f2.json'
+Probably not a big deal, but runtime files may be cleaned up periodically.
+  RuntimeWarning,
+[I 10:55:07.725 NotebookApp] Saving file at /reproducible_result.ipynb
+[I 10:57:07.718 NotebookApp] Saving file at /reproducible_result.ipynb
+[I 10:59:07.708 NotebookApp] Saving file at /reproducible_result.ipynb
+[I 11:01:07.699 NotebookApp] Saving file at /reproducible_result.ipynb
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_1/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_2/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_3/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_4/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_5/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_6/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_7/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_8/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_9/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_10/touch: No such file or directory
+[I 11:03:07.704 NotebookApp] Saving file at /reproducible_result.ipynb
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_1/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_2/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_3/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_4/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_5/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_6/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_7/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_8/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_9/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_10/touch: No such file or directory
+[I 11:05:07.703 NotebookApp] Saving file at /reproducible_result.ipynb
+[I 11:05:39.800 NotebookApp] Starting buffering for 17ac7cba-34b5-4453-9de4-3d9546fee8f2:483c13e253cd4c38b3c49d72257e492d
+[I 11:05:44.963 NotebookApp] Kernel shutdown: 17ac7cba-34b5-4453-9de4-3d9546fee8f2
+[W 11:05:44.972 NotebookApp] 404 POST /api/kernels/17ac7cba-34b5-4453-9de4-3d9546fee8f2/interrupt (172.24.9.124): Kernel does not exist: 17ac7cba-34b5-4453-9de4-3d9546fee8f2
+[W 11:05:44.973 NotebookApp] Kernel does not exist: 17ac7cba-34b5-4453-9de4-3d9546fee8f2
+[W 11:05:44.973 NotebookApp] 404 POST /api/kernels/17ac7cba-34b5-4453-9de4-3d9546fee8f2/interrupt (172.24.9.124) 3.08ms referer=https://hetmathsys1.scrtp.warwick.ac.uk:8953/notebooks/reproducible_result.ipynb
+[W 11:05:44.979 NotebookApp] SSL Error on 9 ('172.24.9.124', 41024): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[E 11:05:52.337 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/warwick/desktop/2018/software/IPython/7.9.0-intel-2019b-Python-3.7.4/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 83, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/warwick/desktop/2018/software/IPython/7.9.0-intel-2019b-Python-3.7.4/lib/python3.7/site-packages/tornado/gen.py", line 735, in run
+        value = future.result()
+      File "/warwick/desktop/2018/software/IPython/7.9.0-intel-2019b-Python-3.7.4/lib/python3.7/site-packages/tornado/gen.py", line 209, in wrapper
+        yielded = next(result)
+      File "/warwick/desktop/2018/software/IPython/7.9.0-intel-2019b-Python-3.7.4/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 307, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/warwick/desktop/2018/software/IPython/7.9.0-intel-2019b-Python-3.7.4/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 387, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 17ac7cba-34b5-4453-9de4-3d9546fee8f2)
+[E 11:05:52.395 NotebookApp] {
+      "Host": "hetmathsys1.scrtp.warwick.ac.uk:8953",
+      "Connection": "keep-alive",
+      "Content-Length": "0",
+      "Sec-Ch-Ua": "\"Google Chrome\";v=\"105\", \"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"105\"",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "X-Xsrftoken": "2|bbbd4c7b|202db6a62b7cd612c227f16e0fc80c4a|1666000374",
+      "X-Requested-With": "XMLHttpRequest",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Origin": "https://hetmathsys1.scrtp.warwick.ac.uk:8953",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Dest": "empty",
+      "Referer": "https://hetmathsys1.scrtp.warwick.ac.uk:8953/notebooks/reproducible_result.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+      "Cookie": "__gads=ID=23a9ff5d94798c00-22465a5ab0cc00a7:T=1635864529:S=ALNI_MZX8jFqBzk16kCSWY8lQeq6yezP9g; _fbp=fb.2.1635952118045.2050227946; _hjSessionUser_762048=eyJpZCI6ImNmODhkMTA5LTJiOGItNWQwYy05ODRlLTI0MWQ1ZGU4MmQ2YyIsImNyZWF0ZWQiOjE2Mzg5ODgyODIxODksImV4aXN0aW5nIjp0cnVlfQ==; _vwo_uuid_v2=D8E711DB5419676D895EF6AC1F938D80E|10763daad0fc581557b1a3d5403dbb6a; _vwo_uuid=D8E711DB5419676D895EF6AC1F938D80E; _tt_enable_cookie=1; _ttp=f3ad73ff-3b90-4dba-be89-abe36bd6be87; visid_incap_2275301=nJIGVcs3T32yI6UKJepg5CuCqGIAAAAAQUIPAAAAAAAcBHfle92vJF4SiNAMHLpr; __utma=38313765.526762840.1635864525.1656332306.1656933975.22; __utmz=38313765.1656933975.22.18.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); _vis_opt_s=1%7C; _scid=642c95f4-ac3e-4dc3-9de9-13840efc2aec; _hjSessionUser_762114=eyJpZCI6IjQyNGNkNmQ1LTE4YWMtNTRiMC05MGM5LTIxNDMzN2JlM2YyYiIsImNyZWF0ZWQiOjE2NTk1MjM1MTY1OTYsImV4aXN0aW5nIjpmYWxzZX0=; _ga_KFNB46TLPV=GS1.1.1659523507.1.1.1659523536.0; username-hetmathsys1-scrtp-warwick-ac-uk-8889=\"2|1:0|10:1663948833|45:username-hetmathsys1-scrtp-warwick-ac-uk-8889|44:ZGYwODMyY2I4MTQ0NDZiYjkwYjRmMmJhMjIwNDE3Nzc=|ce3f1312d7ec75de4eb7c71e6eaf4d8509b520a110546715bd9e8dec9b183e45\"; username-hetmathsys1-scrtp-warwick-ac-uk-8931=\"2|1:0|10:1664871405|45:username-hetmathsys1-scrtp-warwick-ac-uk-8931|44:NWQ1YjZlNjBlYWEwNGE5ZGEyZjUxZmMzZTM0ZTNhNzE=|b0862cce2b31d730b6194f81766fd2a2b776ec0bbeba33c0c5b170136916d203\"; username-hetmathsys1-scrtp-warwick-ac-uk-8899=\"2|1:0|10:1664885253|45:username-hetmathsys1-scrtp-warwick-ac-uk-8899|44:OTA5YzgyYWZiNWM2NDRmZTg4YmFhNTI1NTVhMzFiZGE=|c51a15102e130bddf39ab25323564fc64f029043cd1143ebb81831e8f6c44289\"; _gcl_au=1.1.1191384791.1664982284; _ga=GA1.1.526762840.1635864525; _ga_6Y63P4B097=GS1.1.1664982284.55.0.1664982286.0.0.0; _xsrf=2|bbbd4c7b|202db6a62b7cd612c227f16e0fc80c4a|1666000374; username-hetmathsys1-scrtp-warwick-ac-uk-8953=\"2|1:0|10:1666000380|45:username-hetmathsys1-scrtp-warwick-ac-uk-8953|44:MjIzYTVmZDkwMTk5NDhiODllYmE5OTlkMWNhOGM3ODI=|826dd025346c1c1bd0a8c2bd88003061d6a5973aac60c3ac7437d8d9ea222357\""
+    }
+[E 11:05:52.403 NotebookApp] 500 POST /api/kernels/17ac7cba-34b5-4453-9de4-3d9546fee8f2/restart (172.24.9.124) 59.06ms referer=https://hetmathsys1.scrtp.warwick.ac.uk:8953/notebooks/reproducible_result.ipynb
+[W 11:05:52.409 NotebookApp] 404 DELETE /api/sessions/439b4691-ff42-4309-9dcd-85f0fc0c31f1 (172.24.9.124): Session not found: session_id='439b4691-ff42-4309-9dcd-85f0fc0c31f1'
+[W 11:05:52.410 NotebookApp] Session not found: session_id='439b4691-ff42-4309-9dcd-85f0fc0c31f1'
+[W 11:05:52.411 NotebookApp] 404 DELETE /api/sessions/439b4691-ff42-4309-9dcd-85f0fc0c31f1 (172.24.9.124) 2.94ms referer=https://hetmathsys1.scrtp.warwick.ac.uk:8953/notebooks/reproducible_result.ipynb
+/warwick/desktop/2018/software/IPython/7.9.0-intel-2019b-Python-3.7.4/lib/python3.7/site-packages/jupyter_client/connect.py:167: RuntimeWarning: Failed to set sticky bit on '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-1fa16a8c-d531-40d2-a8f5-a63f5c4b1a7f.json': [Errno 5] Input/output error: '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-1fa16a8c-d531-40d2-a8f5-a63f5c4b1a7f.json'
+Probably not a big deal, but runtime files may be cleaned up periodically.
+  RuntimeWarning,
+[I 11:05:52.450 NotebookApp] Kernel started: 1fa16a8c-d531-40d2-a8f5-a63f5c4b1a7f
+[W 11:05:52.492 NotebookApp] SSL Error on 22 ('172.24.9.124', 56744): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+/warwick/desktop/2018/software/IPython/7.9.0-intel-2019b-Python-3.7.4/lib/python3.7/site-packages/jupyter_client/connect.py:167: RuntimeWarning: Failed to set sticky bit on '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-1fa16a8c-d531-40d2-a8f5-a63f5c4b1a7f.json': [Errno 5] Input/output error: '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-1fa16a8c-d531-40d2-a8f5-a63f5c4b1a7f.json'
+Probably not a big deal, but runtime files may be cleaned up periodically.
+  RuntimeWarning,
+[I 11:07:07.710 NotebookApp] Saving file at /reproducible_result.ipynb
+[I 11:08:43.770 NotebookApp] Kernel interrupted: 1fa16a8c-d531-40d2-a8f5-a63f5c4b1a7f
+[I 11:09:07.707 NotebookApp] Saving file at /reproducible_result.ipynb
+[I 11:11:07.707 NotebookApp] Saving file at /reproducible_result.ipynb
+[I 11:13:08.318 NotebookApp] Saving file at /reproducible_result.ipynb
+[I 11:17:07.713 NotebookApp] Saving file at /reproducible_result.ipynb
+[I 11:19:07.704 NotebookApp] Saving file at /reproducible_result.ipynb
+[I 11:21:07.705 NotebookApp] Saving file at /reproducible_result.ipynb
+[I 11:23:07.705 NotebookApp] Saving file at /reproducible_result.ipynb
+[I 11:24:57.319 NotebookApp] Saving file at /reproducible_result.ipynb
+[W 11:27:34.262 NotebookApp] SSL Error on 33 ('172.24.9.124', 42280): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 11:27:34.266 NotebookApp] SSL Error on 34 ('172.24.9.124', 42296): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 11:27:34.341 NotebookApp] SSL Error on 35 ('172.24.9.124', 42330): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 11:27:35.196 NotebookApp] SSL Error on 36 ('172.24.9.124', 42354): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 11:27:35.197 NotebookApp] SSL Error on 37 ('172.24.9.124', 42366): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[I 12:01:46.763 NotebookApp] Starting buffering for 1fa16a8c-d531-40d2-a8f5-a63f5c4b1a7f:483c13e253cd4c38b3c49d72257e492d
+[W 12:01:46.831 NotebookApp] SSL Error on 8 ('172.24.9.124', 35204): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[I 12:01:47.800 NotebookApp] Kernel restarted: 1fa16a8c-d531-40d2-a8f5-a63f5c4b1a7f
+/warwick/desktop/2018/software/IPython/7.9.0-intel-2019b-Python-3.7.4/lib/python3.7/site-packages/jupyter_client/connect.py:167: RuntimeWarning: Failed to set sticky bit on '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-1fa16a8c-d531-40d2-a8f5-a63f5c4b1a7f.json': [Errno 5] Input/output error: '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-1fa16a8c-d531-40d2-a8f5-a63f5c4b1a7f.json'
+Probably not a big deal, but runtime files may be cleaned up periodically.
+  RuntimeWarning,
+[W 12:01:50.392 NotebookApp] SSL Error on 22 ('172.24.9.124', 38406): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[I 12:01:50.437 NotebookApp] Restoring connection for 1fa16a8c-d531-40d2-a8f5-a63f5c4b1a7f:483c13e253cd4c38b3c49d72257e492d
+[I 12:01:50.442 NotebookApp] Replaying 6 buffered messages
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_1/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_2/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_3/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_4/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_5/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_6/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_7/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_8/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_9/touch: No such file or directory
+sh: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result/Data_epoch/Data_10/touch: No such file or directory
+[I 12:03:08.364 NotebookApp] Saving file at /reproducible_result.ipynb
+[W 14:55:27.933 NotebookApp] SSL Error on 8 ('172.24.9.124', 44958): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 14:55:27.959 NotebookApp] SSL Error on 26 ('172.24.9.124', 44966): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 17:37:20.438 NotebookApp] WebSocket ping timeout after 119989 ms.
+[I 17:37:25.476 NotebookApp] Starting buffering for 1fa16a8c-d531-40d2-a8f5-a63f5c4b1a7f:483c13e253cd4c38b3c49d72257e492d
+[I 17:17:47.763 NotebookApp] The port 8888 is already in use, trying another port.
+[I 17:17:47.763 NotebookApp] The port 8889 is already in use, trying another port.
+[I 17:17:47.777 NotebookApp] The port 8890 is already in use, trying another port.
+[I 17:17:47.782 NotebookApp] The port 8891 is already in use, trying another port.
+[I 17:17:47.788 NotebookApp] The port 8892 is already in use, trying another port.
+[I 17:17:47.789 NotebookApp] The port 8799 is already in use, trying another port.
+[I 17:17:47.806 NotebookApp] The port 8790 is already in use, trying another port.
+[I 17:17:47.807 NotebookApp] The port 8788 is already in use, trying another port.
+[I 17:17:47.851 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 17:17:50.877 NotebookApp] Loading the assignment_list nbgrader serverextension
+[I 17:17:50.906 NotebookApp] Loading the course_list nbgrader serverextension
+[I 17:17:50.929 NotebookApp] Loading the formgrader nbgrader serverextension
+[I 17:17:50.955 NotebookApp] Loading the validate_assignment nbgrader serverextension
+[I 17:17:50.957 NotebookApp] Serving notebooks from local directory: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result
+[I 17:17:50.957 NotebookApp] The Jupyter Notebook is running at:
+[I 17:17:50.957 NotebookApp] https://hetmathsys1.scrtp.warwick.ac.uk:8875/
+[I 17:17:50.966 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 17:18:01.255 NotebookApp] The port 8888 is already in use, trying another port.
+[I 17:18:01.255 NotebookApp] The port 8889 is already in use, trying another port.
+[I 17:18:01.256 NotebookApp] The port 8890 is already in use, trying another port.
+[I 17:18:01.257 NotebookApp] The port 8891 is already in use, trying another port.
+[I 17:18:01.267 NotebookApp] The port 8892 is already in use, trying another port.
+[I 17:18:01.270 NotebookApp] The port 8909 is already in use, trying another port.
+[I 17:18:01.270 NotebookApp] The port 8866 is already in use, trying another port.
+[I 17:18:01.271 NotebookApp] The port 8954 is already in use, trying another port.
+[I 17:18:01.275 NotebookApp] The port 8971 is already in use, trying another port.
+[I 17:18:01.276 NotebookApp] The port 8879 is already in use, trying another port.
+[I 17:18:01.288 NotebookApp] The port 8796 is already in use, trying another port.
+[I 17:18:01.289 NotebookApp] The port 8869 is already in use, trying another port.
+[I 17:18:01.294 NotebookApp] The port 8879 is already in use, trying another port.
+[I 17:18:01.300 NotebookApp] The port 8814 is already in use, trying another port.
+[I 17:18:01.305 NotebookApp] The port 8832 is already in use, trying another port.
+[I 17:18:01.355 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 17:18:03.487 NotebookApp] Loading the assignment_list nbgrader serverextension
+[I 17:18:03.495 NotebookApp] Loading the course_list nbgrader serverextension
+[I 17:18:03.537 NotebookApp] Loading the formgrader nbgrader serverextension
+[I 17:18:03.563 NotebookApp] Loading the validate_assignment nbgrader serverextension
+[I 17:18:03.568 NotebookApp] Serving notebooks from local directory: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result
+[I 17:18:03.569 NotebookApp] The Jupyter Notebook is running at:
+[I 17:18:03.569 NotebookApp] https://hetmathsys1.scrtp.warwick.ac.uk:8977/
+[I 17:18:03.570 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 17:18:05.396 NotebookApp] SSL Error on 8 ('172.31.198.24', 43294): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 17:18:08.676 NotebookApp] SSL Error on 8 ('172.31.198.24', 36144): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[I 17:18:08.722 NotebookApp] 302 GET / (172.31.198.24) 0.60ms
+[I 17:18:08.728 NotebookApp] 302 GET /tree? (172.31.198.24) 0.72ms
+[W 17:18:09.065 NotebookApp] SSL Error on 13 ('172.31.198.24', 36200): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 17:18:09.085 NotebookApp] SSL Error on 10 ('172.31.198.24', 36176): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 17:18:09.120 NotebookApp] SSL Error on 11 ('172.31.198.24', 36188): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 17:18:09.128 NotebookApp] SSL Error on 9 ('172.31.198.24', 36166): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 17:18:09.165 NotebookApp] SSL Error on 12 ('172.31.198.24', 36186): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 17:18:09.283 NotebookApp] SSL Error on 9 ('172.31.198.24', 36212): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 17:18:09.284 NotebookApp] SSL Error on 11 ('172.31.198.24', 36230): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 17:18:09.326 NotebookApp] SSL Error on 12 ('172.31.198.24', 36226): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 17:18:09.430 NotebookApp] SSL Error on 9 ('172.31.198.24', 36246): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 17:18:09.435 NotebookApp] SSL Error on 12 ('172.31.198.24', 36250): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 17:18:09.510 NotebookApp] SSL Error on 9 ('172.31.198.24', 36260): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 17:18:09.516 NotebookApp] SSL Error on 12 ('172.31.198.24', 36254): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[I 17:18:15.323 NotebookApp] 302 POST /login?next=%2Ftree%3F (172.31.198.24) 1.09ms
+[W 17:18:16.336 NotebookApp] SSL Error on 9 ('172.31.198.24', 36262): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 17:18:16.336 NotebookApp] SSL Error on 12 ('172.31.198.24', 36264): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 17:18:16.419 NotebookApp] SSL Error on 12 ('172.31.198.24', 36276): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 17:18:16.421 NotebookApp] SSL Error on 9 ('172.31.198.24', 36268): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 17:18:16.493 NotebookApp] SSL Error on 9 ('172.31.198.24', 36282): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 17:18:16.494 NotebookApp] SSL Error on 12 ('172.31.198.24', 36296): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+/warwick/desktop/2018/software/IPython/7.9.0-intel-2019b-Python-3.7.4/lib/python3.7/site-packages/jupyter_client/connect.py:167: RuntimeWarning: Failed to set sticky bit on '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-3a9b75a2-7566-4cab-b773-baff5737b75a.json': [Errno 5] Input/output error: '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-3a9b75a2-7566-4cab-b773-baff5737b75a.json'
+Probably not a big deal, but runtime files may be cleaned up periodically.
+  RuntimeWarning,
+[I 17:18:23.179 NotebookApp] Kernel started: 3a9b75a2-7566-4cab-b773-baff5737b75a
+[W 17:18:23.455 NotebookApp] SSL Error on 22 ('172.31.198.24', 48772): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+/warwick/desktop/2018/software/IPython/7.9.0-intel-2019b-Python-3.7.4/lib/python3.7/site-packages/jupyter_client/connect.py:167: RuntimeWarning: Failed to set sticky bit on '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-3a9b75a2-7566-4cab-b773-baff5737b75a.json': [Errno 5] Input/output error: '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-3a9b75a2-7566-4cab-b773-baff5737b75a.json'
+Probably not a big deal, but runtime files may be cleaned up periodically.
+  RuntimeWarning,
+[I 17:20:23.193 NotebookApp] Saving file at /reproducible_result.ipynb
+[I 17:20:50.851 NotebookApp] Starting buffering for 3a9b75a2-7566-4cab-b773-baff5737b75a:b4043add317d4439855aa450d44d296d
+[I 17:20:56.031 NotebookApp] Kernel restarted: 3a9b75a2-7566-4cab-b773-baff5737b75a
+/warwick/desktop/2018/software/IPython/7.9.0-intel-2019b-Python-3.7.4/lib/python3.7/site-packages/jupyter_client/connect.py:167: RuntimeWarning: Failed to set sticky bit on '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-3a9b75a2-7566-4cab-b773-baff5737b75a.json': [Errno 5] Input/output error: '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-3a9b75a2-7566-4cab-b773-baff5737b75a.json'
+Probably not a big deal, but runtime files may be cleaned up periodically.
+  RuntimeWarning,
+[W 17:20:58.255 NotebookApp] SSL Error on 22 ('172.31.198.24', 51084): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[I 17:20:58.297 NotebookApp] Restoring connection for 3a9b75a2-7566-4cab-b773-baff5737b75a:b4043add317d4439855aa450d44d296d
+[I 17:20:58.298 NotebookApp] Replaying 3 buffered messages
+[I 17:21:00.212 NotebookApp] Starting buffering for 3a9b75a2-7566-4cab-b773-baff5737b75a:b4043add317d4439855aa450d44d296d
+[I 17:21:01.370 NotebookApp] Shutting down on /api/shutdown request.
+[I 17:21:01.382 NotebookApp] Shutting down 1 kernel
+[I 17:21:01.888 NotebookApp] Kernel shutdown: 3a9b75a2-7566-4cab-b773-baff5737b75a
+[I 12:12:45.342 NotebookApp] The port 8888 is already in use, trying another port.
+[I 12:12:45.342 NotebookApp] The port 8889 is already in use, trying another port.
+[I 12:12:45.351 NotebookApp] The port 8890 is already in use, trying another port.
+[I 12:12:45.351 NotebookApp] The port 8891 is already in use, trying another port.
+[I 12:12:45.352 NotebookApp] The port 8892 is already in use, trying another port.
+[I 12:12:45.355 NotebookApp] The port 8971 is already in use, trying another port.
+[I 12:12:45.356 NotebookApp] The port 8793 is already in use, trying another port.
+[I 12:12:45.402 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 12:12:48.363 NotebookApp] Loading the assignment_list nbgrader serverextension
+[I 12:12:48.381 NotebookApp] Loading the course_list nbgrader serverextension
+[I 12:12:48.426 NotebookApp] Loading the formgrader nbgrader serverextension
+[I 12:12:48.453 NotebookApp] Loading the validate_assignment nbgrader serverextension
+[I 12:12:48.455 NotebookApp] Serving notebooks from local directory: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result
+[I 12:12:48.456 NotebookApp] The Jupyter Notebook is running at:
+[I 12:12:48.458 NotebookApp] https://hetmathsys1.scrtp.warwick.ac.uk:8848/
+[I 12:12:48.458 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 12:12:52.727 NotebookApp] The port 8888 is already in use, trying another port.
+[I 12:12:52.727 NotebookApp] The port 8889 is already in use, trying another port.
+[I 12:12:52.729 NotebookApp] The port 8890 is already in use, trying another port.
+[I 12:12:52.729 NotebookApp] The port 8891 is already in use, trying another port.
+[I 12:12:52.730 NotebookApp] The port 8892 is already in use, trying another port.
+[I 12:12:52.731 NotebookApp] The port 8945 is already in use, trying another port.
+[I 12:12:52.731 NotebookApp] The port 8793 is already in use, trying another port.
+[I 12:12:52.763 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 12:12:54.128 NotebookApp] Loading the assignment_list nbgrader serverextension
+[I 12:12:54.137 NotebookApp] Loading the course_list nbgrader serverextension
+[I 12:12:54.176 NotebookApp] Loading the formgrader nbgrader serverextension
+[I 12:12:54.197 NotebookApp] Loading the validate_assignment nbgrader serverextension
+[I 12:12:54.202 NotebookApp] Serving notebooks from local directory: /home/space/phrgbh/epoch-4.18.0/epoch1d/PX915_Reproducible_Result
+[I 12:12:54.203 NotebookApp] The Jupyter Notebook is running at:
+[I 12:12:54.204 NotebookApp] https://hetmathsys1.scrtp.warwick.ac.uk:8854/
+[I 12:12:54.205 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 12:12:57.896 NotebookApp] SSL Error on 8 ('172.31.198.24', 49512): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:12:57.897 NotebookApp] SSL Error on 9 ('172.31.198.24', 49520): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[I 12:12:57.917 NotebookApp] 302 GET / (172.31.198.24) 0.59ms
+[I 12:12:57.955 NotebookApp] 302 GET /tree? (172.31.198.24) 0.70ms
+[W 12:12:58.033 NotebookApp] SSL Error on 9 ('172.31.198.24', 49542): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:12:58.034 NotebookApp] SSL Error on 10 ('172.31.198.24', 49574): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:12:58.035 NotebookApp] SSL Error on 11 ('172.31.198.24', 49562): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:12:58.061 NotebookApp] SSL Error on 12 ('172.31.198.24', 49546): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:12:58.062 NotebookApp] SSL Error on 13 ('172.31.198.24', 49544): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:12:58.070 NotebookApp] SSL Error on 9 ('172.31.198.24', 49582): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:12:58.070 NotebookApp] SSL Error on 10 ('172.31.198.24', 49596): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[I 12:13:02.245 NotebookApp] 302 POST /login?next=%2Ftree%3F (172.31.198.24) 1.08ms
+/warwick/desktop/2018/software/IPython/7.9.0-intel-2019b-Python-3.7.4/lib/python3.7/site-packages/jupyter_client/connect.py:167: RuntimeWarning: Failed to set sticky bit on '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-ff90f040-c49d-4371-a7c3-6b897274ee94.json': [Errno 5] Input/output error: '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-ff90f040-c49d-4371-a7c3-6b897274ee94.json'
+Probably not a big deal, but runtime files may be cleaned up periodically.
+  RuntimeWarning,
+[I 12:13:17.515 NotebookApp] Kernel started: ff90f040-c49d-4371-a7c3-6b897274ee94
+[W 12:13:17.804 NotebookApp] SSL Error on 22 ('172.31.198.24', 46210): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+/warwick/desktop/2018/software/IPython/7.9.0-intel-2019b-Python-3.7.4/lib/python3.7/site-packages/jupyter_client/connect.py:167: RuntimeWarning: Failed to set sticky bit on '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-ff90f040-c49d-4371-a7c3-6b897274ee94.json': [Errno 5] Input/output error: '/home/space/phrgbh/.local/share/jupyter/runtime/kernel-ff90f040-c49d-4371-a7c3-6b897274ee94.json'
+Probably not a big deal, but runtime files may be cleaned up periodically.
+  RuntimeWarning,
+[I 12:14:03.162 NotebookApp] Saving file at /reproducible_result.ipynb
+[I 12:14:05.092 NotebookApp] Starting buffering for ff90f040-c49d-4371-a7c3-6b897274ee94:8f1aa16f46ea412ca2affd287f858e72
+[W 12:25:18.434 NotebookApp] SSL Error on 9 ('172.31.198.24', 44408): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:25:18.435 NotebookApp] SSL Error on 8 ('172.31.198.24', 44394): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:25:21.177 NotebookApp] SSL Error on 10 ('172.31.198.24', 44444): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:25:21.179 NotebookApp] SSL Error on 11 ('172.31.198.24', 44460): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:25:21.204 NotebookApp] SSL Error on 14 ('172.31.198.24', 44466): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:25:21.205 NotebookApp] SSL Error on 15 ('172.31.198.24', 44432): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:25:21.216 NotebookApp] SSL Error on 10 ('172.31.198.24', 44486): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:25:21.219 NotebookApp] SSL Error on 11 ('172.31.198.24', 44480): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:25:21.241 NotebookApp] SSL Error on 11 ('172.31.198.24', 44506): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:25:21.243 NotebookApp] SSL Error on 10 ('172.31.198.24', 44502): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:25:21.274 NotebookApp] SSL Error on 10 ('172.31.198.24', 44508): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:25:21.866 NotebookApp] SSL Error on 10 ('172.31.198.24', 44524): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[W 12:25:22.604 NotebookApp] SSL Error on 14 ('172.31.198.24', 44550): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1076)
+[I 12:26:47.804 NotebookApp] Saving file at /reproducible_result.ipynb
+[I 12:27:01.796 NotebookApp] Saving file at /reproducible_result.ipynb
+[I 12:27:03.073 NotebookApp] Starting buffering for ff90f040-c49d-4371-a7c3-6b897274ee94:298494ba1a0c40f28b3bbf5c06d8193f
+[I 12:27:09.527 NotebookApp] Kernel shutdown: ff90f040-c49d-4371-a7c3-6b897274ee94

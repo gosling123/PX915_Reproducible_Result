@@ -18,6 +18,8 @@ Repo for PX915 summer project reproducible result.
 * sklearn (1.0.2)
 * json (2.0.9)
 
+## Reproducible Result Exercise
+The jupyter notebook contained within this repository provides the details of the reproducible result exercise. Once you have set up EPOCH (instructions below) on your machine and cloned the software within this repository, you should be able to run the notebook. It'll take you through the various stages of the reproducible result. The notebook will execute the required epoch samples to run to extract the mean and variance of the laser reflectivity and then use the software within this repo to perform Gaussian Process regression on the training data supplied. At the end of the notebook, a simple UQ exercise is performed in which the predicted variance from the GP model is compared to the variance of the EPOCH samples ran via this notebook. 
 
 ## Acessing EPOCH
 This project used EPOCH version 4.17.16, the latest releases can by found here https://github.com/Warwick-Plasma/epoch/releases.

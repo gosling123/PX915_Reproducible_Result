@@ -2,6 +2,16 @@
 
 Repo for PX915 summer project reproducible result.
 
+## Note :
+The jupyter notebook will intialise 10 epoch runs simultaneously,
+each running on 3 cores (30 in total). This will require you to use
+significant computational resources (I.e hetmathsys node ) and can take several 
+hours to complete.
+
+Due to this run time, please make sure you keep the set intensity in the notebook 
+at the default value, or change it before running the epoch simulations, otherwise if you want to run it 
+again at a different intensity, the sample runs will take a further several hours.
+
 ## Python package dependencies:
 #### (NOTE: sdf package comes with EPOCH. Instructions to install package are given in the Using EPOCH section, please do not do pip3 install sdf as this is a seprate package.)
 

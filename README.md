@@ -1,6 +1,8 @@
 # PX915_Reproducible_Result
 
-Repo for PX915 summer project reproducible result.
+Repo for PX915 summer project reproducible result. Full code for summer project is housed in the repo epoch_surra:
+
+https://github.com/gosling123/epoch_surra.git
 
 ## Note :
 The jupyter notebook will intialise 10 epoch runs simultaneously,
